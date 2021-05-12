@@ -1,0 +1,10 @@
+Instead of this Route::get('/', 'HomeController@index') Laravel 8 is    use App\Http\Controllers\HomeController; //
+     									Route::get('/', [EdwinsController::class, 'index']); 
+
+
+
+New migration
+ php artisan make:migration create_posts_table --create="posts"
+
+     													
+    
